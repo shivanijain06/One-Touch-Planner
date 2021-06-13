@@ -1,0 +1,41 @@
+<img class="signin-bg" src="/assets/images/light-veneer.png" alt="Sign in/register pages background image">
+
+<div class="center-align logo-div">
+    <img class="logo-image" src="/assets/images/event-pro-3-logo.png" alt="EventPRO logo image">
+</div>
+
+<div class="valign-wrapper row signin-box">
+    <div class="col card hoverable s10 offset-s1 m8 offset-m2 l4 offset-l3 signin-card">
+        <form id="signin" name="signin" method="post" action="/signin">
+            <div class="card-content">
+                <span class="card-title center">Log In</span>
+
+                <div class="row">
+
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="username" name="username" type="text" class="validate" required/>
+                        <label for="username" class="center-align">Username</label>
+                    </div>
+
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">lock</i>
+                        <input id="userpassword" name="userpassword" type="password" required/>
+                        <label for="password">Password</label>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card-action center-align">
+                <div class="input-field col s12 center-align">
+                    <button type="submit" class="btn waves-effect waves-light teal lighten-2 col s12 center">Start Planning</button>
+                </div>
+
+                <div class="input-field col s12 center-align">
+                    <p class="margin center medium-small sign-up">First time here? <a href="/register">Sign Up!</a></p>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
